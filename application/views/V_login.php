@@ -22,7 +22,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       -ms-user-select: none;
       user-select: none;
     }
-
     @media (min-width: 768px) {
       .bd-placeholder-img-lg {
         font-size: 3.5rem;
@@ -77,7 +76,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <input type="email" id="usuarioID" class="form-control" placeholder="Usuario" required autofocus>
     <label for="passwordID" class="sr-only">Contrase&ntilde;a</label>
     <input type="password" id="passwordID" class="form-control" placeholder="Contrase&ntilde;a" required>
-    <button class="btn btn-lg btn-primary btn-block" style="background:#DD060D" onclick="loguear()">Iniciar
+    <button class="btn btn-lg btn-primary btn-block maincolor"  onclick="loguear()">Iniciar
       sesi&oacute;n</button>
     
   </div>

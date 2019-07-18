@@ -32,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Virtual<span>Rimac</span></a>
+	      <a class="navbar-brand maincolor" href="index.html">Virtual<span>Rimac</span></a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	    </div>
 	  </nav>
 	  <section id="home-section" class="hero">
-	  	<h3 class="vr">Welcome to DigiLab</h3>
+	  	<h3 class="vr">Virtual Rimac</h3>
 		  <div class="home-slider js-fullheight owl-carousel">
 	      <div class="slider-item js-fullheight">
 	      	<div class="overlay"></div>
@@ -64,11 +64,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	          	</div>
 		          <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
-		          		<span class="subheading">Welcome to the digilab</span>
-			            <h1 class="mb-4 mt-3">Small Details Make A Big <span>Impression</span></h1>
-			            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
+		          		<span class="subheading">Bienvenido a Virtual Rimac</span>
+			            <h1 class="mb-4 mt-3">Conoce el Rimac desde tu <span> Hogar</span></h1>
+			            <p>Este distrito cuenta con calles de influencia sevillana y forma parte del Centro Histórico de Lima.</p>
 			            
-			            <p><a href="#" class="btn btn-primary px-5 py-3 mt-3">Get in touch</a></p>
+			            <p><a href="#" class="btn btn-primary px-5 py-3 mt-3">Contáctanos</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -84,11 +84,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	          	</div>
 		          <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
-		          		<span class="subheading">Welcome to the digilab</span>
+		          		<span class="subheading">Bienvenido a Virtual Rimac</span>
 			            <h1 class="mb-4 mt-3"><span>Strategic</span> Design And <span>Technology</span> Agency</h1>
 			            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
 			            
-			            <p><a href="#" class="btn btn-primary px-5 py-3 mt-3">Get in touch</a></p>
+			            <p><a href="#" class="btn btn-primary px-5 py-3 mt-3">Contáctanos</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -103,19 +103,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row no-gutters">
           <div class="col-md-4 ftco-animate py-5 nav-link-wrap">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link px-4 active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><span class="mr-3 flaticon-ideas"></span> Business Strategy</a>
+              <a class="nav-link px-4 active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><span class="mr-3 flaticon-ideas"></span> Ventaja Competitiva</a>
 
-              <a class="nav-link px-4" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><span class="mr-3 flaticon-flasks"></span> Research</a>
+              <a class="nav-link px-4" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><span class="mr-3 flaticon-flasks"></span> Misión</a>
 
-              <a class="nav-link px-4" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><span class="mr-3 flaticon-analysis"></span> Data Analysis</a>
-
+              <a class="nav-link px-4" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><span class="mr-3 flaticon-analysis"></span> Visión</a>
+<!-- 
               <a class="nav-link px-4" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><span class="mr-3 flaticon-web-design"></span> UI Design</a>
 
-              <a class="nav-link px-4" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><span class="mr-3 flaticon-ux-design"></span> Ux Design</a>
+              <a class="nav-link px-4" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><span class="mr-3 flaticon-ux-design"></span> Ux Design</a> -->
 
-              <a class="nav-link px-4" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><span class="mr-3 flaticon-innovation"></span> Technology</a>
+              <a class="nav-link px-4" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><span class="mr-3 flaticon-innovation"></span> Tecnología</a>
 
-              <a class="nav-link px-4" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false"><span class="mr-3 flaticon-idea"></span> Creative</a>
+              <a class="nav-link px-4" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false"><span class="mr-3 flaticon-idea"></span>Creatividad</a>
             </div>
           </div>
           <div class="col-md-8 ftco-animate p-4 p-md-5 d-flex align-items-center">
@@ -124,58 +124,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
               <div class="tab-pane fade show active py-5" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
                 <span class="icon mb-3 d-block flaticon-ideas"></span>
-                <h2 class="mb-4">Business Strategy</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                <h2 class="mb-4">Ventaja Competitiva</h2>
+                <p>La ventaja competitiva que tendremos será una estrategia de liderazgo en costes ya que nuestra aplicación será gratuita y permitirá conocer este distrito sin salir de casa. Otra ventaja competitiva es nuestra imagen de marca, somos únicos en el mercado mostrando algo diferente para los turistas, además de que brindamos una experiencia inmersiva que creará un enlace emocional con nuestros clientes.</p>
+                <p><a href="#" class="btn btn-primary px-4 py-3">Aprende más</a></p>
               </div>
 
               <div class="tab-pane fade py-5" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
                 <span class="icon mb-3 d-block flaticon-flasks"></span>
-                <h2 class="mb-4">Research</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                <h2 class="mb-4">Misión</h2>
+                <p>​Conectar la realidad con lo virtual para así promover el turismo, llegar a más personas e inspirar a la comunidad a mejorar el entorno de donde viven, a través de nuestra aplicación móvil tener todo lo necesario para que sea una ventana al mundo.</p>
+                <p><a href="#" class="btn btn-primary px-4 py-3">Aprende más</a></p>
               </div>
 
               <div class="tab-pane fade py-5" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
                 <span class="icon mb-3 d-block flaticon-analysis"></span>
-                <h2 class="mb-4">Data Analysis</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                <h2 class="mb-4">Visión</h2>
+                <p>​Ser la empresa reconocida como líder en turismo digital e innovación a nivel mundial por parte de sus consumidores, empleados, clientes, proveedores y todos los grupos de interés relacionados con la actividad de la compañía.</p>
+                <p><a href="#" class="btn btn-primary px-4 py-3">Aprende más</a></p>
               </div>
-
+<!-- 
               <div class="tab-pane fade py-5" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
                 <span class="icon mb-3 d-block flaticon-web-design"></span>
                 <h2 class="mb-4">UI Design</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                <p><a href="#" class="btn btn-primary px-4 py-3">Aprende más</a></p>
               </div>
 
               <div class="tab-pane fade py-5" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
                 <span class="icon mb-3 d-block flaticon-ux-design"></span>
                 <h2 class="mb-4">Ux Design</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
-              </div>
+                <p><a href="#" class="btn btn-primary px-4 py-3">Aprende más</a></p>
+              </div> -->
 
               <div class="tab-pane fade py-5" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
                 <span class="icon mb-3 d-block flaticon-innovation"></span>
-                <h2 class="mb-4">Technology</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                <h2 class="mb-4">Tecnología</h2>
+                <p>Primeramente se utilizará una cámara 360 para poder grabar y fotografiar los lugares más representativos del Rimac. Una vez que tengamos todo el contenido multimedia necesario, comenzaremos con la aplicación móvil desarrollada en Android y utilizaremos la librería de Google VR para poder programar la parte de realidad virtual.</p>
+                <p><a href="#" class="btn btn-primary px-4 py-3">Aprende más</a></p>
               </div>
 
               <div class="tab-pane fade py-5" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
                 <span class="icon mb-3 d-block flaticon-idea"></span>
-                <h2 class="mb-4">Creative Solution</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+                <h2 class="mb-4">Solución Creativa</h2>
+                <p>Se realizará para que los turistas puedan conocer sobre este distrito que tiene calles con influencia sevillana y que forma parte del Centro Histórico de Lima.</p>
+                <p><a href="#" class="btn btn-primary px-4 py-3">Aprende más</a></p>
               </div>
             </div>
           </div>
@@ -228,7 +221,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     	</div>
     </section>
 
-    <section class="ftco-section ftco-project bg-light" id="projects-section">
+    <!-- <section class="ftco-section ftco-project bg-light" id="projects-section">
     	<div class="container px-md-5">
     		<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
@@ -310,7 +303,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
     		</div>
     	</div>
-    </section>
+    </section> -->
 		
 
 		<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
