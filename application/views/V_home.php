@@ -46,7 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	          <li class="nav-item"><a href="#testimony-section" class="nav-link"><span>Testimony</span></a></li>
 	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li>
               <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-              <li class="nav-item"><a href="<?php echo base_url(); ?>login" class="nav-link"><span>Perra login</span></a></li>
+              <li class="nav-item"><a href="<?php echo base_url(); ?>login" class="nav-link"><span> login</span></a></li>
               
 	        </ul>
 	      </div>
