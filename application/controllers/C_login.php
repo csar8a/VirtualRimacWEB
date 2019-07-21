@@ -27,8 +27,9 @@ class C_login extends CI_Controller
         {
             $user = $this->input->post('usuario');
             $pass = $this->input->post('password');
-            $pass = sha1($this->input->post('password'));
+            //$pass = sha1($this->input->post('password'));
             log_message('error',print_r($user,true));
+            log_message('error',print_r($pass,true));
             
 
             $data = $this->M_login->login($user,$pass);

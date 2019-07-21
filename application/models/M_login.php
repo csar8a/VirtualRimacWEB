@@ -13,11 +13,11 @@ class M_login extends CI_Model
         //$sql = 'SELECT * FROM "MDB_SEG"."SEG_LOGIN"(?,?) ';
         //$this->db->where('usuario', $user);
         //$this->db->where('contraseña', $pass);
-
-        $consulta="select * from usuario where `usuario`='.$user.'";
+        log_message('error',print_r($user,true));
+        $consulta="select * from usuario where `usuario`='$user'";
        
         $resultado = $this->db->query($consulta);
-        log_message('error',print_r($resultado,true));
+        //log_message('error',print_r($resultado,true));
         if($resultado->num_rows() == 1)
         {   
             $r = $resultado->row();
