@@ -14,10 +14,12 @@ class M_login extends CI_Model
         //$this->db->where('usuario', $user);
         //$this->db->where('contraseña', $pass);
 
-        $consulta="select * from usuario where `usuario`='.$user.'";
+        $consulta="select * from usuario where `usuario`='$user' and contrasena='$pass'";
        
         $resultado = $this->db->query($consulta);
         log_message('error',print_r($resultado,true));
+
+        log_message('error',print_r($consulta,true));
         if($resultado->num_rows() == 1)
         {   
             $r = $resultado->row();
