@@ -72,13 +72,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
-
+//'username' => 'educaweb','password' => 'B8O&;l{qEZDK',
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'educaweb2.com',
+	'username' => 'educaweb',
+	'password' => 'B8O&;l{qEZDK',
+	'database' => 'educaweb_virtualrimac',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
