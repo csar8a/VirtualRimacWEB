@@ -14,7 +14,7 @@ function loguear() {
         .done(function (response) {
             let data = JSON.parse(response);
             if (data.error == 0) {
-                window.open(base_url + "home", "_self");
+                window.open(base_url + "main", "_self");
                 alert('Usuario correcto');
             } else {
                 alert('Usuario incorrecto');
