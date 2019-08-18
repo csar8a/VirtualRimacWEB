@@ -13,7 +13,6 @@
 
   <!-- Custom fonts for this template-->
   <link href="public/utils/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
   <link href="public/utils/css/sb-admin-2.min.css" rel="stylesheet">
@@ -24,99 +23,89 @@
 
   <!-- Page Wrapper -->
   <div id="wrapper" style="background-color:#989494; !important">
+                  <!-- Sidebar -->
+                      <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"  id="accordionSidebar" style="background-color:#989494; !important">
 
-    <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"  id="accordionSidebar" style="background-color:#989494; !important">
+                    <!-- Sidebar - Brand -->
+                    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html" style="background-color:#CF312C; !important">
+                      <div class="sidebar-brand-icon rotate-n-15">
+                        <i class="fas fa-laugh-wink"></i>
+                      </div>
+                      <div class="sidebar-brand-text mx-3">VRimac<sup> Admin</sup></div>
+                    </a>
 
-      <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html" style="background-color:#CF312C; !important">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">VRimac<sup> Admin</sup></div>
-      </a>
+                    <!-- Divider -->
+                    <hr class="sidebar-divider my-0" >
 
-      <!-- Divider -->
-      <hr class="sidebar-divider my-0" >
-
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item active"   >
-        <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Bienvenido</span></a>
-      </li>
-
-      <!-- Divider -->
-      
-
-      <!-- Heading -->
-      <div class="sidebar-heading" style="background-color:#989494; !important">
-        Modulos
-      </div>
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item" style="background-color:#989494; !important">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" >
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Lugares Turisticos</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Acciones:</h6>
-            <a class="collapse-item" href="buttons.html">Administrar</a>
-            <a class="collapse-item" href="cards.html">Crear</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item" style="background-color:#989494; !important">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
-          <span>Restaurantes:</span>
-        </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Acciones:</h6>
-            <a class="collapse-item" href="utilities-color.html">Administrar</a>
-            <a class="collapse-item" href="utilities-border.html">Registrar</a>
-            
-          </div>
-        </div>
-      </li>
-    <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item" style="background-color:#989494; !important">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Rutal Virtuales</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Acciones:</h6>
-            <a class="collapse-item" href="login.html">Administrar</a>
-            <a class="collapse-item" href="register.html">Registrar</a>
-            
-          </div>
-        </div>
-      </li>
-
-      
-      
-
-      
-      <!-- Sidebar Toggler (Sidebar) -->
-      <div class="text-center d-none d-md-inline" style="background-color:#989494; !important">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
-
-    </ul>
+                    <!-- Nav Item - Dashboard -->
+                    <li class="nav-item active"   >
+                      <a class="nav-link" href="index.html">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Bienvenido</span></a>
+                    </li>
+                    <!-- Heading -->
+                    <div class="sidebar-heading" style="background-color:#989494; !important">
+                      Modulos
+                    </div>
+                    <!-- Nav Item - Pages Collapse Menu -->
+                    <li class="nav-item" style="background-color:#989494; !important">
+                      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" >
+                        <i class="fas fa-fw fa-cog"></i>
+                        <span>Lugares Turisticos</span>
+                      </a>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                          <h6 class="collapse-header">Acciones:</h6>
+                          <a class="collapse-item" href="buttons.html">Administrar</a>
+                          <a class="collapse-item" href="cards.html">Crear</a>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Nav Item - Utilities Collapse Menu -->
+                    <li class="nav-item" style="background-color:#989494; !important">
+                      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+                        <i class="fas fa-fw fa-wrench"></i>
+                        <span>Restaurantes:</span>
+                      </a>
+                      <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                          <h6 class="collapse-header">Acciones:</h6>
+                          <a class="collapse-item" href="utilities-color.html">Administrar</a>
+                          <a class="collapse-item" href="utilities-border.html">Registrar</a>
+                          
+                        </div>
+                      </div>
+                    </li>
+                  <!-- Nav Item - Utilities Collapse Menu -->
+                    <li class="nav-item" style="background-color:#989494; !important">
+                      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Rutal Virtuales</span>
+                      </a>
+                      <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                          <h6 class="collapse-header">Acciones:</h6>
+                          <a class="collapse-item" href="login.html">Administrar</a>
+                          <a class="collapse-item" href="register.html">Registrar</a>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Sidebar Toggler (Sidebar) -->
+                    <div class="text-center d-none d-md-inline" style="background-color:#989494; !important">
+                      <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                    </div>
+                  </ul>
     <!-- End of Sidebar -->
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
 
+    
+
       <!-- Main Content -->
       <div id="content">
+               
+              
 
         <!-- Topbar -->
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
@@ -182,6 +171,41 @@
            
           </div>
 
+          <div class="container" style="padding: 20px 0 20px 0">
+                    <h4 style="margin-bottom: 20px">Registrar Lugar Turistico</h4>
+                   
+
+                    <div class="card" style="margin-top: 20px; background: #f1f1f1">
+                        <div class="card-body">
+                            <div class="row">
+                                
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="nombre">Nombre del Lugar:</label>
+                                        <input class="form-control" id="nombre" placeholder="Documento">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="descripcion">Descripción:</label>
+                                        <br>
+                                        <textarea class="form-control" rows="3" id="descripcion"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        Archivo:
+                                        <input type="file" name="fileImagen" class="custom-file" accept="application/pdf">
+                                        </tr>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+
         
         <!-- /.container-fluid -->
 
@@ -199,6 +223,8 @@
       <!-- End of Footer -->
 
     </div>
+
+    
     <!-- End of Content Wrapper -->
 
   </div>
@@ -227,6 +253,9 @@
   <!-- Page level custom scripts -->
   <script src="public/utils/js/demo/chart-area-demo.js"></script>
   <script src="public/utils/js/demo/chart-pie-demo.js"></script>
+  <script src="<?php echo base_url(); ?>public/utils/js/bootstrap-datepicker.min.js"></script>
+  <script src="<?php echo base_url(); ?>public/normas/js/normas.js"></script>
+
 
 </body>
 
