@@ -196,10 +196,17 @@
                                 <div class="col-6">
                                     <div class="form-group">
                                         Archivo:
-                                        <input type="file" name="fileImagen" class="custom-file" accept="application/pdf">
+                                        <input type="file" name="fileImagen" class="custom-file" accept="application/jpg">
                                         </tr>
                                     </div>
+                                <div class="col-3">
+                                  <div class="form-group">
+                                    <label for="RegistrarLugar"  style="opacity: 0;">Registrar</label>
+                                    <button id="btnBuscar" onclick="RegistrarLugar()" type="button" class="btn btn-primary form-control" style="width: inherit; display: block; background-color:#79AAFF !important;">Registrar</button>
                                 </div>
+                            </div>
+                                </div>
+                                
                             </div>
                            
                         </div>
@@ -235,7 +242,7 @@
     <i class="fas fa-angle-up"></i>
   </a>
 
-  
+  <script src="<?php echo base_url(); ?>public/utils/js/registrarlugar.js"></script>
 
   <!-- Bootstrap core JavaScript-->
   <script src="public/utils/vendor/jquery/jquery.min.js"></script>
