@@ -6,10 +6,12 @@ class C_dashboard extends CI_Controller
     {
         parent::__construct();
         //$this->load->helper('utils');
+        $this->load->model('M_dashboard');
     }
     public function index()
     {
         $this->load->view('V_dashboard');
+       
     }
 
     public function insertarNorma()
@@ -17,10 +19,7 @@ class C_dashboard extends CI_Controller
         $data['error'] = EXIT_ERROR;
         try {
             // VALIDACION DE USUARIO
-            $s_nombreUsuario = $this->session->userdata('s_nombreUsuario');
-            if($s_nombreUsuario == null){
-                return;
-            }
+            
             $config['upload_path']='../server_files';
             $config['allowed_types']='gif|jpg|png';
             $config['max_size']='20048';
@@ -48,6 +47,7 @@ class C_dashboard extends CI_Controller
                 );
 
                 $data = $this->M_dashboard->insertLugar($datos_lugar);
+                log_message('error',print_r($datos_lugar,true));
             }
             echo json_encode($data);
         } catch (\Throwable $th) {

@@ -15,7 +15,7 @@ function RegistrarLugar() {
     formData.append('archivo', $('input[type=file]')[0].files[0]); 
     
     $.ajax({
-        url: 'normas/C_normas/insertarNorma',
+        url: 'C_dashboard/insertarNorma',
         data: formData,
         type: 'POST',
         contentType: false, // NEEDED, DON'T OMIT THIS (requires jQuery 1.6+)

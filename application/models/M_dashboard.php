@@ -8,7 +8,7 @@ class M_dashboard extends CI_Model
         $this->load->database();
     }
 
-    function insertLugar($user,$pass) {
+    function insertLugar($datos_lugar) {
         // AQUIII HAGAN EL QUERY
         //$sql = 'SELECT * FROM "MDB_SEG"."SEG_LOGIN"(?,?) ';
         //$this->db->where('usuario', $user);
